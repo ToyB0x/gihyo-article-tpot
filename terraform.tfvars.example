@@ -1,0 +1,11 @@
+# T-Pot Security Settings
+admin_ip               = "YOUR_IP" # eg "x.x.x.x/32"
+
+# CLOUD ACCOUNT / SUBSCRIPTION / PROJECT Settings
+aws_allowed_account_id = "YOUR_AWS_ACCOUNT_ID" # eg "123456789012"
+azure_subscription_id  = "YOUR_AZURE_SUBSCRIPTION_ID" # eg "xxxxx-xxxx-xxxx-xxxx-xxxxxxxx"
+gcp_project_id         = "YOUR_GCP_PROJECT_ID" # eg "my-project-123456"
+
+# NETWORK Settings
+vpc_cidr    = "10.0.0.0/16" # eg "10.0.0.0/16"
+subnet_cidr = "10.0.0.0/24" # eg "10.0.0.0/24" or "10.0.1.0/24"
